@@ -15,8 +15,8 @@ async function createTask(req, res) {
 
 async function getTasks(req, res) {
   try {
-    const { userEmail, type } = req.query;
-    const tasks = await Task.find({ email: userEmail, type });
+    const { userEmail } = req.query;
+    const tasks = await Task.find({ email: userEmail });
     res.json(tasks);
   } catch (error) {
     console.error('Error fetching tasks:', error);
