@@ -1,8 +1,6 @@
 # Tasksync Pro - Empowering Your Productivity Journey
 
-## Website Link: [Click Here](tasksync-pro.web.com)
-
-## Server Link: [Click Here]()
+## Website Link: [Click Here](https://tasksync-pro.web.app/)
 
 
 ## Overview
